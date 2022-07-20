@@ -1,22 +1,23 @@
 <template>
-    <main class="container-lg">
-
-    </main>
+    <div class="main-background">
+        <div class="row col-8 mx-auto pt-5">
+            <AlbumList/>
+        </div>
+    </div>
 </template>
 
 <script>
-
+import AlbumList from './AlbumList';
 export default {
-
     components: {
-
+        AlbumList
     },
 }
 </script>
 
-<style lang="scss">
-main {
-    height: 90vh;
-    background-color: #1f2d3b;
+<style>
+.main-background{
+    height: 100vh;
+    background-color: #1E2D3B;
 }
 </style>
