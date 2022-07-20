@@ -1,16 +1,15 @@
 <template>
-    <main>
-        <AlbumContainer />
+    <main class="container-lg">
+
     </main>
 </template>
 
 <script>
-import AlbumContainer from './AlbumContainer.vue';
 
 export default {
 
     components: {
-        AlbumContainer,
+
     },
 }
 </script>
